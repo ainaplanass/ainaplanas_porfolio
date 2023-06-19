@@ -11,7 +11,7 @@ Description: This 3D action puzzle-platformer game challenges players to escape 
 
 💻 Programmed and debugged game mechanics.<br>
 🔧 Implemented and fine-tuned game mechanics for smooth and responsive gameplay.<br>
-🔍 Conducted quality assurance testing and bug identification for a polished and enjoyable gaming experience.<br><br>
+🔍 Conducted quality assurance testing and bug identification for a polished and enjoyable gaming experience. <br>
 🚀 Implemented and optimized game features for enhanced gameplay.<br>
 🔎 Participated in code reviews and debugging sessions to maintain code quality and resolve issues effectively.<br>
 
@@ -22,27 +22,17 @@ Description: Educational 2.5D serious game. By using video games as an education
 
 [![Gameplay Video](https://img.youtube.com/vi/pCdvkDNIhH8/0.jpg)](https://www.youtube.com/watch?v=pCdvkDNIhH8&t=120s)
 
-🎮 Developed a serious game for bullying prevention.
-🔧 Implemented gameplay mechanics and features.
-🌟 Created interactive and engaging game levels.
-📘 Integrated educational content and messages.
-🔍 Conducted testing and debugging for optimal user experience.
-## Skills
-
-- Unity Game Development
-- C# Programming
-- Game Mechanics Design
-- Gameplay Programming
-- Level Design
-- UI/UX Design
-- Game Testing and Debugging
+🎮 Developed a serious game for bullying prevention.<br>
+🔧 Implemented gameplay mechanics and features.<br>
+🌟 Created interactive and engaging game levels.<br>
+📘 Integrated educational content and messages.<br>
+🔍 Conducted testing and debugging for optimal user experience.<br>
 
 ## Contact Information
 
-If you're interested in collaborating or want to learn more about my projects, feel free to reach out to me:
+Feel free to reach out to me:
 
-- Email: [Your email address]
-- LinkedIn: [Your LinkedIn profile URL]
-- Personal Website/Blog: [Optional: Add your website or blog URL]
+📧Email: planas.aina@gmail.com <br>
+👉LinkedIn:https://www.linkedin.com/in/aina-planas-salvador-12b684197/ <br>
 
-Thank you for visiting my Unity Game Developer Portfolio!
+Thank you for visiting my Unity Game Developer Portfolio! ☀️☀️☀️
