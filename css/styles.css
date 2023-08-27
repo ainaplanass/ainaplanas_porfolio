@@ -10884,7 +10884,7 @@ p {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  width: 120px;
+  width: 80px;
   height: auto;
   max-height: 80px; 
   transition: width 0.3s;
