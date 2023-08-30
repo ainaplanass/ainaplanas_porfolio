@@ -10882,9 +10882,9 @@ p {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  width: 80px;
+  width: 60px;
   height: auto;
-  max-height: 80px; 
+  max-height: 100px; 
   transition: width 0.3s;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
