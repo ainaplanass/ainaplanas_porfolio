@@ -1,244 +1,369 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Aina Planas</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/tooplate-style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sansita+Swashed:400,600,700&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lexend+Deca:wght@500&family=Manrope:wght@300&family=Noto+Serif:wght@600&family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway&family=Roboto+Serif:ital,opsz,wght@0,8..144,400;1,8..144,300&family=Signika:wght@400;500&family=Urbanist:ital,wght@1,100&display=swap" rel="stylesheet">        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/AinaPlanas.png" alt="..." /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+<body>
+        <div class="header">
+            <a href="#" class="navbar-brand scroll-top">
+                <div class="waviy">
+                    <span style="--i:1">A</span>
+                    <span style="--i:2">i</span>
+                    <span style="--i:3">n</span>
+                    <span style="--i:4">a</span>
+                    <span style="--i:4"> </span>
+                    <span style="--i:5">P</span>
+                    <span style="--i:6">l</span>
+                    <span style="--i:7">a</span>
+                    <span style="--i:8">n</span>
+                    <span style="--i:9">a</span>
+                    <span style="--i:10">s</span>                      
+                 </div>
+            <div class="container">        
+                <nav class="navbar navbar-inverse" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                          
+                        </button>                        
+                        </a>                      
+                    </div>                  
+    </body>
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="scroll-top">Home</a></li>
+                        <li><a href="#" class="scroll-link" data-id="about">About me</a></li>
+                        <li><a href="#" class="scroll-link" data-id="portfolio">Portfolio</a></li>
+                        <li><a href="#" class="scroll-link" data-id="contact">Contact</a></li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container">
-                <div class="masthead-heading text-uppercase">Aina Planas</div>
-            </div>
-        </header>
-        </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Take a Peek at What I've Done!</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/11.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">These bots are made for killin!</div>
-                                <div class="portfolio-caption-subheading text-muted">3D action puzzle-platformer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/2.png" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Observa i actua</div>
-                                <div class="portfolio-caption-subheading text-muted">Educational 2.5D serious game</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-<section class="page-section" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About me</h2>
-                    <h3 class="section-subheading text-muted">Hi!😊</h3>
-                </div>
-                <p class="text-muted">
-                    I am a junior game developer 🎮 who recently graduated with a degree in video game design and production.
-                    Throughout my academic career, I have gained expertise in various areas of game development, allowing me
-                    to successfully work on projects as both a 2D and 3D programmer. I am also enthusiastic about exploring
-                    the back end of software development and expanding my skills in that area. 💡
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <div class="text-center">
-                    <img class="rounded-circle img-fluid" src="assets/img/about/face.png" alt="Profile Photo" />
-                </div>
-            </div>
+            </nav>
         </div>
     </div>
-</section>
-        <!-- Contact-->
- <section class="page-section" id="contact">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="section-heading text-uppercase">Feel free to get in touch!</h2>
-            <!-- Agregando un espacio -->
-            <div style="margin-top: 20px;"></div>
-        </div>
-        <div class="row align-items-center justify-content-center mb-5">
-            <div class="col-md-6">
-                <div class="form-group d-flex align-items-center">
-                    <p class="form-control text-left">📧 planas.aina@gmail.com</p>
-                </div>
-                <div class="form-group d-flex align-items-center">
-                    <p class="form-control text-left">💼 <a href="https://www.linkedin.com/in/aina-planas-salvador-12b684197/" target="_blank">My LinkedIn</a></p>
-                </div>
-            </div>
-        </div>
+    <section class="cd-hero">
+        <ul class="cd-hero-slider autoplay">  
+            <li class="selected first-slide">
+                <div class="cd-full-width">
+                    <div class="tm-slide-content-div slide-caption">
+                        <span>Take a peek at</span>
+                        <h2>My projects</h2>
+                        <p>Here you can find some of the projects I've been working on!</p>
+                        <div class="primary-button">
+                            <a href="#" class="scroll-link" data-id="portfolio">Discover More</a>
+                        </div>                           
+                    </div>                   
+                </div> 
+            </li>
+
+            <li class="second-slide">
+                <div class="cd-full-width">
+                    <div class="tm-slide-content-div slide-caption">
+                        <span>Hi there! Find out more</span>
+                        <h2>About me</h2>
+                        <p>Let me tell you a little bit about who I am and what I'm all about.</p>
+                        <div class="primary-button">
+                            <a href="#" class="scroll-link" data-id="about">Read More</a>
+                        </div>                        
+                    </div>                     
+                </div> 
+            </li>
+
+            <li class="third-slide">
+                <div class="cd-full-width">
+                    <div class="tm-slide-content-div slide-caption">
+                        <span>Dont hesitate to</span>
+                        <h2>Contact</h2>
+                        <p>Let's keep in touch!</p>
+                        <div class="primary-button">
+                            <a href="#" class="scroll-link" data-id="contact">View details</a>
+                        </div>                           
+                    </div>                         
+                </div> 
+            </li>
+        </ul> 
+
+        <div class="cd-slider-nav">
+            <nav>
+                <span class="cd-marker item-1"></span>
+                
+                <ul>
+                    <li class="selected"><a href="#0"></a></li>
+                    <li><a href="#0"></a></li>
+                    <li><a href="#0"></a></li>                        
+                </ul>
+            </nav> 
+        </div> 
+        
+    </section>
+    <div id="about" class="page-section">      
     </div>
-</section>
-</section>
-        <!-- Footer-->
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">    
-                    <div class="col-lg-4 my-3 my-lg-0">
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Portfolio Modals-->
-<!-- Portfolio item 1 modal popup -->
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <div class="modal-body">
-                            <!-- Project details-->
-                            <h2 class="text-uppercase">These bots are made for killin!</h2>
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Tt2MtQcgkG4" allowfullscreen></iframe>
-                            </div>
-                            <p> This 3D action puzzle-platformer game challenges players to escape from a warbot factory by overcoming various challenges throughout the game.</p>
-                            <ul class="list-inline">
-                                <li>
-                                    💻 Programmed and debugged game mechanics.
-                                </li>
-                                <li>
-                                    🔧 Implemented and fine-tuned game mechanics for smooth and responsive gameplay.
-                                </li>
-                                <li>
-                                    🔍 Conducted quality assurance testing and bug identification for a polished and enjoyable gaming experience.
-                                </li>
-                                <li>
-                                    🚀 Implemented and optimized game features for enhanced gameplay.
-                                </li>
-                                <li>
-                                    🔎 Participated in code reviews and debugging sessions to maintain code quality and resolve issues effectively.
-                                </li>
-                            </ul>
-                            <p>
-                                Download the game: <a href="https://aiduns.itch.io/these-bots-are-made-for-killin" target="_blank">https://aiduns.itch.io/these-bots-are-made-for-killin</a>
-                            </p>
-                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                <i class="fas fa-times me-1"></i>
-                                Cerrar Proyecto
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Portfolio item 2 modal popup-->
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10"> <!-- Aumentar el valor de col-lg-10 para hacer el video más grande -->
-                        <div class="modal-body">
-                            <!-- Project details-->
-                            <h2 class="text-uppercase">Observa i actua</h2>
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pCdvkDNIhH8" allowfullscreen></iframe>
-                            </div>
-                          <ul class="list-inline">
-                            <li>
-                                🎮 Developed a serious game for bullying prevention.
-                            </li>
-                            <li>
-                                🔧 Implemented gameplay mechanics and features.
-                            </li>
-                            <li>
-                                🌟 Created interactive and engaging game levels.
-                            </li>
-                            <li>
-                                📘 Integrated educational content and messages.
-                            </li>
-                            <li>
-                                🔍 Conducted testing and debugging for optimal user experience.
-                            </li>
+
+    <div id="what-we-do">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left-text">
+                        <h4>ABOUT ME</h4>
+                        <p>Hi!😊</p>
+                        <p>I am a junior game developer 🎮 who recently graduated with a degree in video game design and production. Throughout my academic career, I have gained expertise in various areas of game development, allowing me to successfully work on projects as both a 2D and 3D programmer. I am also enthusiastic about exploring the back end of software development and expanding my skills in that area. 💡
+                        </p>
+                        <ul>
                         </ul>
-                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                <i class="fas fa-times me-1"></i>
-                                Cerrar Proyecto
-                            </button>
-                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right-image">
+                        <img src="img/face.png" alt="" class="small-image">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
+    <div id="portfolio" class="page-section">
+        <div class="content-wrapper">
+            <div class="inner-container container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <h4>My Portfolio</h4>
+                            <div class="line-dec"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-holder-3">
+                    <div class="filter-categories">
+                        <ul class="project-filter">
+                            <li class="filter" data-filter="all"><span>All</span></li>
+                            <li class="filter" data-filter="nature"><span>Videogames</span></li>
+                            <li class="filter" data-filter="workspace"><span>FullStack</span></li>
+                        </ul>
+                    </div>
+                    <div class="projects-holder">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 project-item mix nature">
+                                <div class="portfolio-item">
+                                    <a class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src="img/11.jpg" alt="..." />
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <div class="portfolio-caption-heading">These bots are made for killin!</div>
+                                        <div class="portfolio-caption-subheading text-muted">3D Action platformer game</div>
+                                    </div>                             
+                                </div>
+                            </div>                                                
+                            <div class="col-md-3 col-sm-6 project-item mix nature">
+                              <div class="thumb">
+                                  <div class="image">
+                                    <img src="img/2.png">
+                                  </div>
+                                  <div class="hover-effect">
+                                    <a href="img/portfolio_big_02.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 project-item mix workspace">
+                              <div class="thumb">
+                                  <div class="image">
+                                    <img src="img/portfolio_03.jpg">
+                                  </div>
+                                  <div class="hover-effect">
+                                    <a href="img/portfolio_big_03.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 project-item mix city">
+                              <div class="thumb">
+                                  <div class="image">
+                                    <img src="img/portfolio_04.jpg">
+                                  </div>
+                                  <div class="hover-effect">
+                                    <a href="img/portfolio_big_04.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 project-item mix nature">
+                              <div class="thumb">
+                                  <div class="image">
+                                    <img src="img/portfolio_05.jpg">
+                                  </div>
+                                  <div class="hover-effect">
+                                    <a href="img/portfolio_big_05.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                  </div>
+                              </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- <div id="fun-facts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="fact-item">
+                        <div class="counter" data-count="926">0</div>
+                        <span>Regular Visitors</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="fact-item">
+                        <div class="counter" data-count="214">0</div>
+                        <span>Finished Projects</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="fact-item">
+                        <div class="counter" data-count="118">0</div>
+                        <span>Happy Clients</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="fact-item">
+                        <div class="counter" data-count="16">0</div>
+                        <span>Total Awards</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div id="contact" class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h4>Contact Us</h4>
+                        <div class="line-dec"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="map">
+                        <img src="img/map.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                      <form id="contact" action="" method="post">
+                        <div class="col-md-6">
+                          <fieldset>
+                            <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                          </fieldset>
+                        </div>
+                        <div class="col-md-6">
+                          <fieldset>
+                            <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                          </fieldset>
+                        </div>
+                        <div class="col-md-12">
+                          <fieldset>
+                            <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                          </fieldset>
+                        </div>
+                        <div class="col-md-12">
+                          <fieldset>
+                            <button type="submit" id="form-submit" class="btn">Send Message</button>
+                          </fieldset>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------- modal 1 -------------------->
+    <div class="portfolio-modal modal" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="img/close-icon.png" alt="Close" /></div>
+                <h2 class="h2">These bots are made for killin!</h2>
+                <p class="item-intro">3D Action platformer game</p>
+    
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Tt2MtQcgkG4" frameborder="0" allowfullscreen></iframe>
+    
+                <p>
+                    This 3D action puzzle-platformer game challenges players to escape from a warbot factory by overcoming various challenges throughout the game.
+                </p>
+                <ul class="list-inline">
+                    <li>💻 Programmed and debugged game mechanics.</li>
+                    <li>🔧 Implemented and fine-tuned game mechanics for smooth and responsive gameplay.</li>
+                    <li>🔍 Conducted quality assurance testing and bug identification for a polished and enjoyable gaming experience.</li>
+                    <li>🚀 Implemented and optimized game features for enhanced gameplay.</li>
+                    <li>🔎 Participated in code reviews and debugging sessions to maintain code quality and resolve issues effectively.</li>
+                </ul>
+                <button style="background-color: #c24973; color: #fff; padding: 10px 10px; border: none; border-radius: 20px; cursor: pointer; text-transform: uppercase; font-weight: 500; font-size: 13px; letter-spacing: 1px; text-decoration: none; transition: background-color 0.5s;" onmouseover="this.style.backgroundColor='#db92ac'" onmouseout="this.style.backgroundColor='#c24973'" onclick="window.location.href='https://aiduns.itch.io/these-bots-are-made-for-killin'">Visit the Game Page</button>
+            </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        // navigation click actions 
+        $('.scroll-link').on('click', function(event){
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop:0}, 'slow');         
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+    });
+    // scroll function
+    function scrollToID(id, speed){
+        var offSet = 50;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $('#main-nav');
+        $('html,body').animate({scrollTop:targetOffset}, speed);
+        if (mainNav.hasClass("open")) {
+            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+            mainNav.removeClass("open");
+        }
+    }
+    if (typeof console === "undefined") {
+        console = {
+            log: function() { }
+        };
+    }
+
+    </script>
+</body>
 </html>
