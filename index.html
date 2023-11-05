@@ -175,44 +175,18 @@
                                 </div>
                             </div>                                                
                             <div class="col-md-3 col-sm-6 project-item mix nature">
-                              <div class="thumb">
-                                  <div class="image">
-                                    <img src="img/2.png">
-                                  </div>
-                                  <!-- <div class="hover-effect">
-                                    <a href="img/portfolio_big_02.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
-                                  </div>
-                              </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 project-item mix workspace">
-                              <div class="thumb">
-                                  <div class="image">
-                                    <img src="img/portfolio_03.jpg">
-                                  </div>
-                                  <div class="hover-effect">
-                                    <a href="img/portfolio_big_03.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
-                                  </div>
-                              </div>
-                            </div> -->
-                            <!-- <div class="col-md-3 col-sm-6 project-item mix city">
-                              <div class="thumb">
-                                  <div class="image">
-                                    <img src="img/portfolio_04.jpg">
-                                  </div>
-                                  <div class="hover-effect">
-                                    <a href="img/portfolio_big_04.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
-                                  </div>
-                              </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 project-item mix nature">
-                              <div class="thumb">
-                                  <div class="image">
-                                    <img src="img/portfolio_05.jpg">
-                                  </div>
-                                  <div class="hover-effect">
-                                    <a href="img/portfolio_big_05.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
-                                  </div>
-                              </div> -->
+                                <div class="portfolio-item">
+                                    <a class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src="img/2.png" alt="..." />
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <div class="portfolio-caption-heading">Observa i actua</div>
+                                        <div class="portfolio-caption-subheading text-muted">2.5D Educational videogame</div>
+                                    </div>                             
+                                </div>                            
                             </div>
                             </div>
                         </div>
@@ -256,7 +230,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h4>Contact Us</h4>
+                        <h4>Contact</h4>
                         <div class="line-dec"></div>
                     </div>
                 </div>
@@ -264,38 +238,23 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="map">
-                        <img src="img/map.jpg" alt="">
+                        <img src="img/bcnmap.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="row">
-                      <form id="contact" action="" method="post">
-                        <div class="col-md-6">
-                          <fieldset>
-                            <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
-                          </fieldset>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h4>📧 planas.aina@gmail.com</h4>
                         </div>
-                        <div class="col-md-6">
-                          <fieldset>
-                            <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
-                          </fieldset>
+                        <div class="contact-item">
+                            <h4><a href="https://www.linkedin.com/in/aina-planas-salvador-12b684197//" class="linkedin-link">💼 My LinkedIn</a></h4>
                         </div>
-                        <div class="col-md-12">
-                          <fieldset>
-                            <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
-                          </fieldset>
-                        </div>
-                        <div class="col-md-12">
-                          <fieldset>
-                            <button type="submit" id="form-submit" class="btn">Send Message</button>
-                          </fieldset>
-                        </div>
-                      </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
+      
     <!---------------- modal 1 -------------------->
     <div class="portfolio-modal modal" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -315,6 +274,38 @@
                     <li>🔍 Conducted quality assurance testing and bug identification for a polished and enjoyable gaming experience.</li>
                     <li>🚀 Implemented and optimized game features for enhanced gameplay.</li>
                     <li>🔎 Participated in code reviews and debugging sessions to maintain code quality and resolve issues effectively.</li>
+                </ul>
+                <button style="background-color: #c24973; color: #fff; padding: 10px 10px; border: none; border-radius: 20px; cursor: pointer; text-transform: uppercase; font-weight: 500; font-size: 13px; letter-spacing: 1px; text-decoration: none; transition: background-color 0.5s;" onmouseover="this.style.backgroundColor='#db92ac'" onmouseout="this.style.backgroundColor='#c24973'" onclick="window.location.href='https://aiduns.itch.io/these-bots-are-made-for-killin'">Visit the Game Page</button>
+            </div>
+    </div>
+     <!---------------- modal 2 -------------------->
+     <div class="portfolio-modal modal" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="img/close-icon.png" alt="Close" /></div>
+                <h2 class="h2">Observa i actua!</h2>
+                <p class="item-intro">2.5D Educational videogame</p>
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/watch?v=pCdvkDNIhH8&t=120s" frameborder="0" allowfullscreen></iframe>               
+                <p>
+                    By using video games as an educational tool, this project aims to help raise awareness about potential bullying situations that may arise in the future.
+                </p>
+                <ul class="list-inline">
+                    <li>
+                        🎮 Developed a serious game for bullying prevention.
+                    </li>
+                    <li>
+                        🔧 Implemented gameplay mechanics and features.
+                    </li>
+                    <li>
+                        🌟 Created interactive and engaging game levels.
+                    </li>
+                    <li>
+                        📘 Integrated educational content and messages.
+                    </li>
+                    <li>
+                        🔍 Conducted testing and debugging for optimal user experience.
+                    </li>
                 </ul>
                 <button style="background-color: #c24973; color: #fff; padding: 10px 10px; border: none; border-radius: 20px; cursor: pointer; text-transform: uppercase; font-weight: 500; font-size: 13px; letter-spacing: 1px; text-decoration: none; transition: background-color 0.5s;" onmouseover="this.style.backgroundColor='#db92ac'" onmouseout="this.style.backgroundColor='#c24973'" onclick="window.location.href='https://aiduns.itch.io/these-bots-are-made-for-killin'">Visit the Game Page</button>
             </div>

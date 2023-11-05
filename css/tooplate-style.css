@@ -285,11 +285,11 @@ h5 {
 }
 .navbar-inverse .navbar-toggle {
 	margin-top: 22px;
-    border-color: #a2cf8d;
-    background-color: #a2cf8d;
+    border-color: rgb(207, 117, 170);
+    background-color: rgb(206, 118, 162);
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background-color: #a2cf8d;
+	background-color: #cf8cb6;
 }
 
 .navbar-toggle {
@@ -501,16 +501,36 @@ ul.cd-hero-slider {
 #contact .section-heading {
 	margin-bottom: 60px;
 }
-
 #contact {
-	background-image: url(../img/contact-bg.png);
-	background-repeat: no-repeat;
-	width: 100%;
-	background-size: cover;
+  background-image: url(../img/996.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center bottom;
+  padding: 40px 0;
 }
 
+.contact-info {
+  font-size: 19px; 
+  color: #ffffff; 
+}
+.contact-item {
+  background-color: rgba(139, 81, 95, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  max-width: 400px;
+}
+
+.contact-info a {
+  color: rgb(243, 243, 243); 
+  text-decoration: none;
+  
+}
+
+
 #contact .map img {
-	width: 100%;
+	width: 80%;
 	overflow: hidden;
 }
 
@@ -593,8 +613,8 @@ body.lb-disable-scrolling {
 }
 
 .lb-outerContainer {
-  position: relative;
-  *zoom: 1;
+  position: relatvie;
+  zoom: 1;
   width: 250px;
   height: 250px;
   margin: 0 auto;
@@ -692,7 +712,7 @@ body.lb-disable-scrolling {
 .lb-dataContainer {
   margin: 0 auto;
   padding-top: 5px;
-  *zoom: 1;
+  zoom: 1;
   width: 100%;
   -moz-border-radius-bottomleft: 4px;
   -webkit-border-bottom-left-radius: 4px;
