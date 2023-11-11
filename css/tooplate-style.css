@@ -58,7 +58,7 @@ p {
 .portfolio-modal {
     display: none;
     position: fixed;
-    top: 0; /* Mostrar el modal desde la parte superior */
+    top: 50; /* Mostrar el modal desde la parte superior */
     left: 0;
     width: 100%;
     height: 100%;
