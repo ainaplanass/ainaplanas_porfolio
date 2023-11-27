@@ -43,6 +43,23 @@
 	font-family:Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 
 }
+.btn-cute {
+  background-color: #a566a2; 
+  color: #fff; 
+  border-color: rgb(255, 255, 255);
+  border-radius: 40px; /* Hace que el botón sea redondo */
+}
+
+.btn-cute:hover,
+.btn-cute:focus {
+  background-color: #a07a9d; 
+  border-color: #220030; 
+}
+
+.btn-round {
+  padding: 15px 25px; /* Ajusta el tamaño del botón según sea necesario */
+}
+
 body {
 	background-color:#FDD7F7;
   }
@@ -470,7 +487,7 @@ ul.cd-hero-slider {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 80px 20px 80px 0;
-    color: #fff;
+    color: #000000;
     display: flex;
 }
 
@@ -492,7 +509,7 @@ ul.cd-hero-slider {
 
 #what-we-do p {
     margin-bottom: 30px;
-    color: #fff;
+    color: #020000;
 }
 
 #what-we-do ul li {
@@ -590,11 +607,11 @@ ul.cd-hero-slider {
 /* CONTACT US */
 
 #contact .section-heading h4 {
-	color: #fff;
+	color: rgb(0, 0, 0)fff;
 }
 
 #contact .section-heading .line-dec {
-	background-color: #fff;
+	background-color: #0e0101;
 }
 
 #contact .section-heading {
