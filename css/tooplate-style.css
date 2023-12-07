@@ -379,7 +379,7 @@ h5 {
   
   .waviy {
     position: absolute;
-    right: 15px;
+    right: 5%;
     top: 50%;
     transform: translateY(-50%); 
   }
